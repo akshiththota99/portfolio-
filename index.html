@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rishi | Web Developer</title>
+  <meta name="description" content="Portfolio website of Thota Akshith Kumar, a web developer specializing in responsive websites and modern UI design.">
+  <title>Akshith Thota | Web Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
   <nav class="navbar">
-    <h2 class="logo">Rishi</h2>
-    <div class="hamburger" id="hamburger">
+    <a href="#home" class="logo">Akshith<span>Thota</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
       <span></span>
       <span></span>
       <span></span>
-    </div>
+    </button>
     <ul class="nav-links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -26,146 +26,149 @@
     </ul>
   </nav>
 </header>
-
-<section id="home" class="home hero">
-  <div class="hero-content">
-    <h1>Rishi — Web Developer</h1>
-    <p>I build modern, fast, and responsive websites focused on user experience and clean code.</p>
-    <div class="btn-group">
-      <a href="#projects" class="btn">View Projects</a>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-  </div>
-  <div class="hero-image">
-    <img src="profile.jpg" alt="Rishi">
-  </div>
-</section>
-
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-   Hi, I’m Rishi, a passionate Web Developer and Computer Science student.
-   I specialize in building modern, responsive websites with clean design and smooth user experience.
-   I’m constantly learning new technologies and working on real-world projects to sharpen my skills.
-   My goal is to become a full-stack developer and create meaningful digital products.
-  </p>
-
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills-container">
-    <div class="skill-category">
-      <h3>Frontend</h3>
-      <div class="skill-box">
-        <div>HTML</div>
-        <div>CSS</div>
-        <div>JavaScript</div>
-        <div>React</div>
+<main>
+  <section id="home" class="hero">
+    <div class="hero-image">
+      <div class="hero-frame">
+        <img src="profile.jpg" alt="Portrait of Thota Akshith Kumar">
       </div>
     </div>
-    <div class="skill-category">
-      <h3>Backend</h3>
-      <div class="skill-box">
-        <div>Node.js</div>
-        <div>Express</div>
+    <div class="hero-copy">
+      <span class="eyebrow">Web Developer • Frontend Specialist</span>
+      <h1>Building polished websites with modern interfaces and fast performance.</h1>
+      <p>I design responsive, user-friendly web experiences that help brands stand out and convert visitors into customers.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
       </div>
     </div>
-    <div class="skill-category">
-      <h3>Tools & Platforms</h3>
-      <div class="skill-box">
-        <div>Git</div>
-        <div>GitHub</div>
-        <div>VS Code</div>
+  </section>
+  <section id="about" class="section about">
+    <div class="section-header">
+      <span class="section-label">About</span>
+      <h2>Professional Summary</h2>
+      <p>Creative web developer focused on modern interfaces, strong user experience,<br> and clean, maintainable code.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>Hi, I’m Thota Akshith Kumar, a web developer and computer science student with a keen eye for design and detail. I build responsive websites and web apps that are fast, accessible, and easy to navigate. I enjoy solving real-world problems through code while learning new tools and frameworks.</p>
+        <p>My current goal is to grow as a full-stack developer and deliver polished digital products that delight users. I’m comfortable working across the frontend and backend and always prioritize collaboration, communication, and continuous improvement.</p>
+      </div>
+      <div class="about-cards">
+        <article class="feature-card">
+          <h3>Responsive Design</h3>
+          <p>Websites that look great on any screen, with fluid layouts and intuitive navigation.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Clean Code</h3>
+          <p>Readable, maintainable development using best practices and modern workflows.</p>
+       
       </div>
     </div>
-    <div class="skill-category">
-      <h3>Soft Skills</h3>
-      <div class="skill-box">
-        <div>Problem Solving</div>
-        <div>Team Collaboration</div>
-        <div>Continuous Learning</div>
+  </section>
+  <section id="skills" class="section skills">
+    <div class="section-header">
+      <span class="section-label">Skills</span>
+      <h2>What I bring to the table</h2>
+      <p>Technical skills and tools I use to build modern web projects.</p>
+    </div>
+    <div class="skills-container">
+      <article class="skill-card">
+        <h3>Frontend</h3>
+        <p>HTML, CSS, JavaScript, responsive layouts, UI refinement.</p>
+      </article>
+      <article class="skill-card">
+        <h3>Backend</h3>
+        <p>Node.js, Express, REST APIs, server-side logic, database integration.</p>
+      </article>
+      <article class="skill-card">
+        <h3>Tools</h3>
+        <p>Git, GitHub, VS Code, browser debugging, deployment workflows.</p>
+      </article>
+      <article class="skill-card">
+        <h3>Soft skills</h3>
+        <p>Problem solving, team collaboration, communication, and continuous learning.</p>
+      </article>
+    </div>
+  </section>
+  <section id="projects" class="section projects">
+    <div class="section-header">
+      <span class="section-label">Portfolio</span>
+      <h2>Selected Projects</h2>
+      <p>Examples of recent work that demonstrate modern UI, interaction, and development quality.</p>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>To-Do App</h3>
+        <p>A task manager with local storage support for reliable daily planning and productivity.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-secondary">Live Demo</a>
+          <a href="#" class="btn btn-secondary">GitHub</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <h3>Student Management System</h3>
+        <p>An administrative dashboard for student records and class management with secure backend support.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+        <div class="project-links">
+          <a href="#" class="btn btn-secondary">Live Demo</a>
+          <a href="#" class="btn btn-secondary">GitHub</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <h3>My Diary</h3>
+        <p>A personal journal web app that stores entries locally and delivers a calm reading experience.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <div class="project-links">
+          <a href="https://akshiththota99.github.io/MY-DIARY/" class="btn btn-secondary">Live Demo</a>
+          <a href="https://github.com/akshiththota99/MY-DIARY" class="btn btn-secondary">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="resume" class="section resume">
+    <div class="resume-card">
+      <div>
+        <span class="section-label">Resume</span>
+        <h2>Download my professional resume</h2>
+        <p>Get a full overview of my experience, education, and project contributions.</p>
       </div>
+      <a href="Akshith_Resume-1.pdf" class="btn btn-primary" download>Download Resume</a>
     </div>
-  </div>
-</section>
-
-<section id="projects" class="projects">
-  <h2>Projects</h2>
-
-  <div class="project-card">
-    <h3>Weather App</h3>
-    <p>A real-time weather application that fetches data from public APIs to display current weather conditions and forecasts.</p>
-    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, OpenWeatherMap API</p>
-    <p><strong>Contribution:</strong> Designed the UI, implemented API integration, and ensured responsive design.</p>
-    <div class="project-links">
-      <a href="#" class="btn">Live Demo</a>
-      <a href="#" class="btn">GitHub</a>
+  </section>
+  <section id="contact" class="section contact">
+    <div class="section-header">
+      <span class="section-label">Contact</span>
+      <h2>Let's work together</h2>
+      <p>I'm available for freelance and full-time opportunities. Send a message and I'll respond soon.</p>
     </div>
-  </div>
-
-  <div class="project-card">
-    <h3>To-Do App</h3>
-    <p>A task management application with local storage support for persisting tasks across sessions.</p>
-    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Local Storage</p>
-    <p><strong>Contribution:</strong> Built the core functionality, added CRUD operations, and styled for a clean user interface.</p>
-    <div class="project-links">
-      <a href="#" class="btn">Live Demo</a>
-      <a href="#" class="btn">GitHub</a>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Contact details</h3>
+        <p><strong>Email</strong></p>
+        <a href="mailto:akshiththota640@gmail.com">akshiththota640@gmail.com</a>
+        <p><strong>GitHub</strong></p>
+        <a href="https://github.com/akshiththota99" target="_blank">github.com/akshiththota99</a>
+        <p><strong>LinkedIn</strong></p>
+        <a href="https://www.linkedin.com/in/akshiththota" target="_blank">linkedin.com/in/akshiththota</a>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-success" id="success-message"></p>
+      </form>
     </div>
-  </div>
-
-  <div class="project-card">
-    <h3>Student Management System</h3>
-    <p>A web application for managing student data, including enrollment, grades, and records.</p>
-    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
-    <p><strong>Contribution:</strong> Developed both frontend and backend, implemented database operations, and ensured data security.</p>
-    <div class="project-links">
-      <a href="#" class="btn">Live Demo</a>
-      <a href="#" class="btn">GitHub</a>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <h3>My Diary</h3>
-    <p>A real-time weather application that fetches data from public APIs to display current weather conditions and forecasts.</p>
-    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, OpenWeatherMap API</p>
-    <p><strong>Contribution:</strong> Designed the UI, implemented API integration, and ensured responsive design.</p>
-    <div class="project-links">
-      <a href="https://akshiththota99.github.io/MY-DIARY/" class="btn">Live Demo</a>
-      <a href="https://github.com/akshiththota99/MY-DIARY" class="btn">GitHub</a>
-    </div>
-  </div>
-</section>
-
-
-<section id="resume">
-  <h2>Resume</h2>
-  <p>Download my resume to learn more about my experience and qualifications.</p>
-  <a href="resume.pdf" class="btn" download>Download Resume</a>
-</section>
-
-<section id="contact" class="contact">
-  <h2>Contact Me</h2>
-  <p>Let's connect! Feel free to reach out for opportunities or collaborations.</p>
-  <div class="contact-info">
-    <p><strong>Email:</strong> akshiththota99@gmail.com</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/akshiththota99" target="_blank">github.com/yourusername</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
-  </div>
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn">Send Message</button>
-  </form>
-</section>
-
+  </section>
+</main>
 <footer>
-  <p>© 2025 Rishi. All rights reserved.</p>
+  <p>© 2025 Thota Akshith Kumar. All rights reserved.</p>
 </footer>
-
 <script src="script.js"></script>
-
 </body>
 </html>

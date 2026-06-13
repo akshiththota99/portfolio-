@@ -1,4 +1,4 @@
-# Rishi - Web Developer Portfolio
+# Akshith - Web Developer Portfolio
 
 A modern, responsive portfolio website showcasing my skills and projects as a web developer.
 
@@ -47,7 +47,7 @@ This portfolio features:
 
 ## 📞 Contact
 
-- **Email**: rishi@example.com
+- **Email**: akshiththota640@example.com
 - **GitHub**: [github.com/yourusername](https://github.com/yourusername)
 - **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
 
@@ -57,4 +57,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by Rishi
+Built with ❤️ by Akshith Kumar
